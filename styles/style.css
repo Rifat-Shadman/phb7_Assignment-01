@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* button styles */
+
+.btn-primary{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: #dadde0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 26px;
+}
+
+
+/* header styles  */
+
+header{
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-position:inherit
+}
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner-content{
+    max-width: 725px;
+    margin-left: auto;
+    padding: 150px 0;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #222020;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin: 24px 0;
+}
+
+/* sections under main  */
+main > section{
+    margin: 130px 206px;
+}
+
+/* failures styles */
+
+.my-failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+li{
+    list-style: none;
+}
+i{
+    color: rgb(98, 221, 98);
+}
+
+.failure-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 40px;
+    /* text-align: left; */
+}
+
+.failure-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.failure-list{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+/* my plans styles  */
+.my-plans h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 40px 0;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
+    text-align: center;
+}
+
+.plan-name{
+    font-weight: 500;
+}
+.plan-desc{
+    font-weight: 100;
+    font-style: italic;
+}
+.plans-container .plan img{
+    height: 100px;
+}
+
+
+/* lower banner section styles  */
+
+.lower-banner{
+    margin-top: 160px;
+    background-image: linear-gradient(90deg, #1091db 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 160px;
+} 
+
+.lower-banner-content{
+    padding: 40px 0px 40px 35px;
+}
+.lower-banner-title{
+    color: white;
+    font-size: 40px;
+}
+
+.btn-secondary{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #2487eb;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding:160px 160px;
+    background-color: black;
+    gap: 80px
+}
+
+
+input{
+    padding: 18px 30px;
+    border-radius: 5px;
+    font-size:20px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.footer-left{
+    color: white;
+}
+
+.footer-form h2, .footer-left h3{
+    color: white;
+    margin: 20px 2px;
+    font-size: 30px;
+}
+
+.footer-left p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+
+
+
+/* extra section css */
+
+.extra-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.extra {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    overflow: hidden;
+}
+  
+
+  
+.extra-innerbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.extra-img {
+    /* position: absolute; */
+    height: 300px;
+    width: 400px;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s ease;
+}
+
+.extra-textbox {
+    margin-top: 20px;
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 430px;
+    font-size: 17px;
+}
+.extra-title{
+    font-weight: 500;
+    font-size: 40px;
+}
+.extra-description{
+    
+    font-size: 20px;
+    margin-top: 40px;
+}
